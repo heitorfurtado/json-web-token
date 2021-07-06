@@ -1,4 +1,4 @@
-package br.com.heitor.jsonwebtoken.model;
+package br.com.heitor.jsonwebtoken.model.entities;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import lombok.*;
