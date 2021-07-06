@@ -2,8 +2,8 @@ package br.com.heitor.jsonwebtoken;
 
 import br.com.heitor.jsonwebtoken.auth.CustomUserDetails;
 import br.com.heitor.jsonwebtoken.auth.CustomUserDetailsService;
-import br.com.heitor.jsonwebtoken.model.RoleEntity;
-import br.com.heitor.jsonwebtoken.model.UserEntity;
+import br.com.heitor.jsonwebtoken.model.entities.RoleEntity;
+import br.com.heitor.jsonwebtoken.model.entities.UserEntity;
 import br.com.heitor.jsonwebtoken.repository.UserRepository;
 import br.com.heitor.jsonwebtoken.security.PasswordConfig;
 import org.junit.Assert;

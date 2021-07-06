@@ -1,7 +1,8 @@
 package br.com.heitor.jsonwebtoken.auth;
 
-import br.com.heitor.jsonwebtoken.model.UserEntity;
+import br.com.heitor.jsonwebtoken.model.entities.UserEntity;
 import br.com.heitor.jsonwebtoken.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -14,6 +15,7 @@ public class CustomUserDetailsService implements UserDetailsService {
 
     private final UserRepository repository;
 
+    @Autowired
     public CustomUserDetailsService(UserRepository repository) {
         this.repository = repository;
     }

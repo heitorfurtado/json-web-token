@@ -1,6 +1,6 @@
 package br.com.heitor.jsonwebtoken.auth;
 
-import br.com.heitor.jsonwebtoken.model.UserEntity;
+import br.com.heitor.jsonwebtoken.model.entities.UserEntity;
 import lombok.EqualsAndHashCode;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
